@@ -1,0 +1,12 @@
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
+
+[tool.poetry]
+authors = ["Gerben Oostra"]
+description = "Dummy poetry project to use as example git dependency in poetry-plugin-mono-repo-deps tests"
+name = "dummy-poetry"
+version = "1.2.3"
+
+[tool.poetry.dependencies]
+python = "^3.8"
